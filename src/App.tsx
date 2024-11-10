@@ -111,8 +111,8 @@ export const App: React.FC = () => {
 
       <ul>
         <ul>
-          {visibleGoods.map((good, i) => (
-            <li data-cy="Good" key={good[i]}>
+          {visibleGoods.map(good => (
+            <li data-cy="Good" key={good}>
               {good}
             </li>
           ))}
